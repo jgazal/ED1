@@ -1,0 +1,32 @@
+4- Se você tivesse que optar entre implementar uma lista linear sequencial ou
+encadeada, quais fatores você analisaria para fazer a escolha? Como estes fatores
+influenciam na escolha da estrutura de dados?
+
+Na lista sequencial é definido um número máximo de elementos, sendo reservado um
+espaço contíguo de memória para armazenar seus elementos, os elementos são
+alocados de maneira consecutiva, um após o outro, permitindo acessar qualquer um
+de seus elementos a partir do ponteiro para o primeiro elemento. O acesso aos
+elementos da lista é direto.
+Se o número máximo de elementos que precisam ser armazenados exceder a dimensão,
+haverá erro, mas se o número de elementos for inferior à sua dimensão, estará
+sendo subutilizado espaço de memória reservado. Como desvantagem, quando
+precisamos inserir ou remover itens é feito um grande esforço para movimentar
+outros elementos já armazenados na lista, de modo a abrir espaço para o
+item a ser inserido, ou a ocupar o espaço liberado pelo item removido.
+
+Na lista encadeada, para cada novo elemento inserido na estrutura, é alocado um
+espaço de memória para armazená-lo. Os elementos ocupam células de memória
+espalhadas por toda a memória, não podendo garantir que os elementos armazenados
+na lista ocuparão um espaço de memória contíguo, portanto não se tem acesso direto
+aos elementos da lista. Junto com cada elemento é armazenado o endereço
+do próximo item da lista, desta forma, o espaço total de memória gasto pela
+estrutura é proporcional ao número de elementos nela armazenado.
+Para percorrer todos os elementos da lista, devemos guardar o encadeamento dos
+elementos, que é feito armazenando-se, junto com a informação de cada elemento,
+um ponteiro para o próximo elemento da lista.
+A vantagem da lista encadeada é a facilidade para remoção e inserção de itens,
+como os itens não precisam estar armazenados em nós consecutivos, nenhum item da
+lista precisa ser movimentado, só é preciso atualizar o campo de ligação do nó
+que armazena o item predecessor daquele a ser inserido ou removido. A desvantagem
+surge quando é preciso acessar uma posição aleatória da lista, devendo partir do
+primeiro item e seguir os campos de ligação, um a um, até alcançar a posição desejada.

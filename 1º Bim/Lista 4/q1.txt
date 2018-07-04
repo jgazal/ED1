@@ -1,0 +1,17 @@
+1- Sobre o conceito de Algoritmos Recursivos, analise as afirmações abaixo e,
+a seguir, assinale a alternativa correta.
+
+I. Um programa tem um número limitado de procedimentos recursivos.
+II. Recursividade é utilizada exclusivamente quando não se sabe solucionar um
+problema de maneira imediata, então é realizada a divisão em problemas menores
+para alcançar o resultado desejado.
+III. Todos os problemas computacionais resolvidos de maneira iterativa gastam
+mais memória que se resolvidos de forma recursiva.
+
+a) Somente a afirmação I extá correta.
+b) Somente a afirmação II está correta.
+c) Somente a afirmação III está correta.
+d) As afirmações I e II estão corretas.
+e) Nenhuma das afirmações está correta.
+
+Resposta: e) Nenhuma das afirmações está correta.

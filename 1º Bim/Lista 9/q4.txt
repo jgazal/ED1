@@ -1,0 +1,25 @@
+4- Os registros em uma lista, duplamente encadeada com 20 elementos possuem cada
+um três campos:
+prox: um ponteiro para o próximo elemento da lista;
+valor: informação armazenada pelo elemento;
+ant: um ponteiro para o elemento anterior da lista.
+
+Sendo "Z" o décimo elemento desta lista e "X" e "Y" dois outros elementos que
+não pertencem à lista, com seus respectivos ponteiros "pZ", "pX" e "pY", conside-
+re o trecho de código abaixo.
+
+pY->prox = pX;
+pX->ant = pY;
+pX->prox = pz->prox;
+(pZ->prox)->ant = pX; //aponta para o elemento anterior do próximo elemento de pZ
+pZ->prox = pY;
+pY->ant = pZ;
+
+Este trecho de código é usado para inserir na lista os elementos:
+a) Y, logo após o Z, e X, logo após o Y.
+b) Y, antes do Z, e X, logo após o Z.
+c) Y, antes do Z, e X, antes do Y.
+d) X, logo após o Z, e Y, logo após o X.
+e) X, antes do Z, e Y, logo após o Z.
+
+Resposta: a

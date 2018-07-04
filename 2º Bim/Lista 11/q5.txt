@@ -1,0 +1,8 @@
+5- Siga a execução de uma inserção e uma retirada na fila representada pela
+figura abaixo, desenhando os diagramas intermediários após a execução de cada
+comando.
+
+___________F___________
+|          |          |
+v                     v
+[5]->[3]->[11]->[25]->NULL

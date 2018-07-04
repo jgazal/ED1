@@ -1,0 +1,12 @@
+1- Considere a seguinte expressão na linguagem C:
+
+  p->info
+
+1. A variável info, que é um ponteiro.
+2. Um elemento de um vetor sendo acessado através de notação de ponteiro.
+3. O resultado da variável p multiplicada pela variável info através de notação
+   de ponteiro.
+4. O campo info da estrutura apontada pelo ponteiro p.
+5. Nenhuma das alternativas anteriores.
+
+Resposta: 4

@@ -1,0 +1,10 @@
+2- Selecione a opção que define respectivamente as funções malloc() e free():
+
+a) Aloca espaço durante a execução do programa e mantém o espaço alocado ao final
+   da execução.
+b) Reserva uma quantidade ilimitada de espaço em memória e o libera posteriormente.
+c) Aloca espaço dinamicamente e libera o espaço após sua utilização.
+d) São utilizadas para definir tipos de dados.
+e) Realiza leitura e impressão de valores.
+
+Resposta: c

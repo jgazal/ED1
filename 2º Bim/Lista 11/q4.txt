@@ -1,0 +1,17 @@
+4- Considerando a estrutura de uma Fila, mostre como ficará cada fila após reali-
+zar as operações indicadas em cada item, onde I - Inserção e R - Remoção:
+
+a) I 10, R, I 2, I 4, I 5, R, R, I 7, I 9, R
+
+  I | 10  2 4 5    7 9
+  R |   10     2 4     5
+
+  7, 9
+
+
+b) I 100, I 8, I 4, R, R, I 10, I 18, I 7, R, I 2, R
+
+  I | 100 8 4      10 18 7   2
+  R |        100 8         4  10
+
+  18, 7, 2

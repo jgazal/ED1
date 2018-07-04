@@ -1,0 +1,43 @@
+3- As funções apresentadas a seguir exibem todos os elementos de uma lista
+duplamente encadeada.
+a) Preencha os pontos de interrogação com as atualizações corretas para os
+ponteiros.
+b) Qual a diferença entre as duas funções?
+
+void ImprimirLD (ListaD I)
+
+  ListaD aux;
+  if (I == NULL)
+    printf("Lista Vazia");
+  else{
+    aux = I;
+    while (aux->prox != NULL)
+    {
+      printf("\n%i", aux->info);
+      aux = ???;                    //aux->prox
+    }
+  }
+
+
+void ImprimirLD (ListaD I)
+
+  ListaD aux;
+  if(I == NULL)
+    printf("Lista Vazia");
+  else{
+    aux = I;
+    while (aux->prox != NULL)
+      aux = aux->prox;
+    while (aux != I)
+    {
+      printf("%i\n", aux->info);
+      aux = ???;                    //aux->ant
+    }
+    printf("%i\n", aux->info);
+    }
+
+  A diferença entre as duas funções é que, a primeira, percorre a lista até o
+  final, imprimindo os elementos de info.
+  A segunda função, primeiro percorrer a lista até o final e depois retorna,
+  imprimindo os elementos de info do final para o início, ou seja, na ordem
+  inversa.

@@ -1,0 +1,8 @@
+1- Descreva, em C, a estrutura de uma célula de uma lista duplamente encadeada.
+
+struct listaD{
+  int info;             //informação armazenada pelo elemento
+  struct listaD *ant;   //ponteiro para o elemento anterior da lista
+  struct listaD *prox;  //ponteiro para o próximo elemento da lista
+};
+typedef struct listaD ListaD;

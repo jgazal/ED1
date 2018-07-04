@@ -1,0 +1,173 @@
+1- A [Pilha] é um conjunto de itens no qual todas as inserções e retiradas são
+feitas em uma das extremidades denominada topo.
+
+2- A [Fila] é uma estrutura onde as operações de inserção são efetuadas no final
+e as operações de retirada são efetuadas no início.
+
+3- A inserção de um elemento torna-o o último da [Fila].
+
+4- Num sistema operacional, os processos prontos para entrar em execução
+(aguardando apenas a disponibilidade da CPU) estão armazenados em uma [Fila].
+
+5- Na execução de um programa a [Pilha] pode ser usada na chamada de procedimentos,
+para armazenar o endereço de retorno (e os parâmetros reais). A medida que
+procedimentos chamam outros procedimentos, mais e mais endereços de retorno devem
+ser guardados. Estes são retirados da estrutura a medida que os procedimentos
+chegam ao seu fim.
+
+6- As estruturas de dados lineares (fila, pilha e lista) são muito utilizadas para
+resolver problemas computacionais. Cada uma dessas estruturas pode ser implementada
+com diferentes características e atendem a diferentes tipos de problemas.
+Sobre as características dessas estruturas de dados, atribua V (verdadeiro) ou
+F (falso) para as afirmativas a seguir.
+( ) Em uma pilha, o último elemento a entrar é o primeiro a sair.
+( ) Em uma fila, o primeiro elemento a entrar é o último a sair.
+( ) Uma lista permite que as inserções possam ser feitas em qualquer lugar
+(posição), mas as remoções, não.
+( ) Em uma pilha estática, é possível acessar e realizar inserções e remoções em
+ambas extremidades do vetor.
+( ) A partir de uma notação especial das expressões aritméticas, é possível
+utilizar pilhas para avaliá-las. Por exemplo: se tivéssemos a expressão
+8 9 + 12 5 - (notação pós-fixa, ou seja, os operadores estão depois do operando,
+como nas calculadoras HP) os operandos poderiam ser incluídos na pilha e só
+retirados depois de encontrado um operador. Assim, o 8 e o 9 seriam empilhados e
+quando fosse encontrado o operador de adição os dois valores seriam desempilhados
+e a operação de soma seria realizada.
+
+Assinale a alternativa que contém, de cima para baixo, a sequência correta.
+V, F, F, F, V
+
+7- O nome que recebe a estrutura de dados cujos elementos são inseridos em um
+extremo e as remoções são efetuadas no outro extremo da estrutura é
+Escolha uma:
+a. Ponteiro.
+b. Lista.
+c. TAD
+***d. Fila
+
+8- A sigla FIFO refere-se a estruturas de dados do tipo fila. Como é o
+funcionamento em uma FIFO?
+Escolha uma:
+a. O primeiro objeto inserido na fila é o último a ser removido.
+***b. O primeiro objeto inserido na fila é também o primeiro a ser removido.
+c. O último objeto inserido na fila é o primeiro a ser removido.
+d. O programador irá definir a ordem de entrada e de saída dos objetos em uma FIFO.
+e. Uma FIFO e uma LIFO possuem as mesmas características de entrada e de saída
+dos objetos.
+
+9- A pilha é uma estrutura de dados que permite a inserção/ remoção de itens
+dinamicamente seguindo a norma de último a entrar, primeiro a sair. Suponha que
+para uma estrutura de dados, tipo pilha, são definidos os comandos:
+PUSH (p, n): Empilha um número “ n “ em uma estrutura de dados do tipo pilha “p“
+POP (p): Desempilha o elemento no topo da pilha.
+Considere que, em uma estrutura de dados tipo pilha “ p “ inicialmente vazia,
+sejam executados os seguintes comandos:
+
+PUSH(p, 10)
+PUSH(p, 5)
+PUSH(p, 3)
+PUSH(p, 40)
+POP(p)
+PUSH(p, 11)
+PUSH(p, 4)
+PUSH(p, 7)
+POP(p)
+POP(p)
+
+Após a execução dos comandos, o elemento no topo da pilha “ p “ e a soma dos
+elementos armazenados na pilha “ p “são, respectivamente,
+Escolha uma:
+***a. 11 e 29.
+b. 11 e 80
+c. 4 e 80.
+d. 7 e 29.
+e. 7 e 40.
+
+11- No desenvolvimento de um software que analisa bases de DNA, representadas
+pelas letras A, C, G, T, utilizou-se as estruturas de dados: pilha e fila.
+Considere que, se uma sequência representa uma pilha, o topo é o elemento mais
+à esquerda; e se uma sequência representa uma fila, a sua frente é o elemento
+mais à esquerda.
+Analise o seguinte cenário: "a sequência inicial ficou armazenada na primeira
+estrutura de dados na seguinte ordem: (A,G,T,C,A,G,T,T). Cada elemento foi
+retirado da primeira estrutura de dados e inserido na segunda estrutura de dados,
+e a sequência fi cou armazenada na seguinte ordem: (T,T,G,A,C,T,G,A). Finalmente,
+cada elemento foi retirado da segunda estrutura de dados e inserido na terceira
+estrutura de dados e a sequência ficou armazenada na seguinte ordem: (T,T,G,A,C,T,G,A)".
+
+Qual a única sequência de estruturas de dados apresentadas a seguir pode ter sido
+usada no cenário descrito acima?
+Escolha uma:
+***a. Fila - Pilha - Fila. Correto
+b. Fila - Fila - Pilha.
+c. Fila - Pilha - Pilha.
+d. Pilha - Fila - Pilha.
+e. Pilha - Pilha - Pilha.
+
+12- O coordenador geral de um comitê olímpico solicitou a implementação de um
+aplicativo que permita o registro dos recordes dos atletas à medida que forem
+sendo quebrados, mantendo a ordem cronológica dos acontecimentos, e possibilitando
+a leitura dos dados a partir dos mais recentes.
+Considerando os requisitos do aplicativo, a estrutura de dados mais adequada para a
+solução a ser implementada é
+Escolha uma:
+a. o deque: tipo especial de lista encadeada, que permite a inserção e a remoção
+em qualquer das duas extremidades da fila e que deve possuir um nó com a informação
+(recorde) e dois apontadores, respectivamente, para os nós próximo e anterior.
+b. a fila: tipo especial de lista encadeada, tal que o primeiro objeto a ser inserido
+na fila é o primeiro a ser lido; nesse mecanismo, conhecido como estrutura FIFO
+(First In- First Out), a inserção e a remoção são feitas em extremidades contrárias
+e a estrutura deve possuir um nó com a informação (recorde) e um apontador,
+respectivamente, para o próximo nó.
+***c. a pilha: tipo especial de lista encadeada, na qual o último objeto a ser
+inserido na fila é o primeiro a ser lido; nesse mecanismo, conhecido como
+estrutura LIFO (Last In- First Out), a inserção e a remoção são feitas na mesma
+extremidade e a estrutura deve possuir um nó com a informação (recorde) e um
+apontador para o próximo nó. Correto
+d. a fila invertida: tipo especial de lista encadeada, tal que o primeiro objeto
+a ser inserido na fila é o primeiro a ser lido; nesse mecanismo, conhecido como
+estrutura FIFO (First In- First Out), a inserção e a remoção são feitas em
+extremidades contrárias e a estrutura deve possuir um nó com a informação
+(recorde) e um apontador, respectivamente, para o nó anterior.
+e. a lista circular: tipo especial de lista encadeada, na qual o último elemento
+tem como próximo o primeiro elemento da lista, formando um ciclo, não havendo
+diferença entre primeiro e último, e a estrutura deve possuir um nó com a
+informação (recorde) e um apontador, respectivamente, para o próximo nó.
+
+13- Cite e justifique pelo menos três atividades realizadas em computadores que
+requeiram o uso de pilhas.
+1- Controle de Fluxo de Execução de um programa à medida que rotinas são chamadas
+e finalizadas. O fluxo de execução determina em que ordem suas instruções são
+executadas. Quando uma instrução de chamada é executada, o endereço da instrução
+seguinte é guardado na pilha de controle. Quando uma instrução de retorno é
+executada, o último elemento guardado na pilha de controle é desempilhado e a
+execução do programa continua a partir dele.
+2- Avaliação de expressões aritméticas. As operações são efetuadas de acordo com
+a prioridade dos operadores, sendo que multiplicação e divisão tem prioridade
+sobre adição e subtração. Operadores com a mesma prioridade são efetuados na
+ordem em que aparecem na expressão, da esquerda para a direita. Parênteses são
+usados para alterar a ordem de avaliação dos operadores.
+3- Resolução de problemas por tentativa e erro (técnica de backtracking
+(ou retrocesso), usada em Inteligência Artificial). Utilizada em situações em
+que, a cada instante temos várias opções possíveis e não sabemos avaliar a melhor.
+Então, escolhemos uma delas e, caso essa escolha não leve à solução do problema,
+retrocedemos e fazemos uma nova escolha.
+
+14- Cite e justifique pelo menos três atividades realizadas em computadores que
+requeiram o uso de filas.
+1- Fila de impressão. Se uma impressora é compartilhada por várias máquinas,
+deve-se adotar uma estratégia para determinar que documento será impresso primeiro,
+tratando todas as requisições com a mesma prioridade e imprimindo os documentos
+na ordem em que foram submetidos, o primeiro submetido é o primeiro a ser impresso.
+2- Coloração de regiões de uma imagem. Representando uma imagem por uma matriz
+bidimensional de números inteiros, dados um ponto p0 e uma cor n, podemos colorir
+os pontos que estão na mesma região que p0, iniciando uma fila vazia, obtemos
+então a cor atual do ponto p0, colorimos o ponto p0 com a nova cor n, enfileiramos
+o ponto p0 na fila, enquanto a fila não estiver vazia desenfileiramos um ponto p
+da fila e colorimos p com a nova cor n, e enfileiramos na fila cada um de seus
+vizinhos que sejam da cor a.
+3- Calculo de tempo de espera. Usado para determinar o tempo que um dado permanece
+na fila. Quando o dado entra na fila, o horário é salvo, quando ele sai, o tempo
+que ele permaneceu na fila é calculado e adicionado ao tempo de espera. Assim,
+é possível determinar quanto tempo, em média, cada dado teve que aguardar até
+ser enviado para processamento.

@@ -1,0 +1,5 @@
+q8 - Descreva resumidamente 2 formas de passagem de parâmetros estudadas, não esquecendo de indicar as vantagens e desvantagens de cada uma delas.
+
+Passagem por valor: Permite usar dentro de uma função uma cópia do valor de uma variável, porém não permite alterar o valor da variável original (somente a cópia pode ser alterada).
+
+Passagem por referência: É passada para a função uma referência da variável, sendo possível alterar o conteúdo da variável original usando-se esta referência.

@@ -1,0 +1,14 @@
+2- O algoritmo a seguir insere o primeiro elemento de uma Lista Duplamente Enca-
+deada. Preencha os pontos de interrogação com as atualizações corretas para os
+ponteiros.
+
+ListaD* insereInicio(ListaD *x, int i)
+{
+  ListaD *novo = (ListaD) malloc(sizeof(ListaD));
+  novo->info = ?;   // i
+  novo->prox = ?;   // x
+  novo->ant = ?;    // NULL
+  if(x!=NULL)
+    x->ant = ?;     // novo
+  return novo;
+}

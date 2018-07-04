@@ -1,0 +1,38 @@
+3- Selecione a declaração que define o nó representado abaixo:
+  ______________________
+  | nome:_____ |  prox |
+  | ra:_______ |       |
+  | nota1:____ |       |
+  | nota2:____ |_______|
+
+a)
+struct dado{
+  char nome[30];
+  int ra;
+  float nota1, nota2;
+  int *proximo;
+};
+
+b)
+struct dado{
+  char nome[30];
+  int ra;
+  float nota1, nota2;
+  struct dado *proximo;
+};
+
+c)
+struct no{
+  int info;
+  struct no *proximo;
+};
+
+d)
+struct no{
+  char nome[30];
+  int ra;
+  float nota1, nota2;
+  struct no proximo;
+};
+
+Resposta: b

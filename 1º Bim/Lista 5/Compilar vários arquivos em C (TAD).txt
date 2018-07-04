@@ -1,0 +1,5 @@
+Compilar vários arquivos em C (TAD):
+
+gcc -c arquivoTAD.c
+gcc -o main main.c arquivoTAD.o
+./main

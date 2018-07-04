@@ -1,0 +1,14 @@
+Analise a chamada a função teste_2 abaixo:
+
+teste_2(&x, &y);
+
+
+O que é &x e &y?
+Escolha uma:
+
+a. São valores passados por parâmetro para a função teste_2;
+b. São os endereços da função teste_2;
+******c. São os endereços das variáveis da função que chamou teste_2;
+d. Para que sejam colocados os valores a serem modificados;
+e. São os endereços das funções de biblioteca necessárias para a função.
+
